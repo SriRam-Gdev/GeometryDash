@@ -1,4 +1,3 @@
 repository "LevelXP@ssriram735@cloud"
   path "/"
-    br "/main"
-    co "/main"
+    smartbranch "/main"

@@ -8,13 +8,10 @@ public class Movement : MonoBehaviour
    
     void Update()
     {
+        
         if (Input.GetKey("w"))
         {
             rb.AddForce(0, 0, forward * Time.deltaTime);
-        }
-        if (Input.GetKey("s"))
-        {
-            rb.AddForce(0, 0, -forward * Time.deltaTime);
         }
         if (Input.GetKey("a"))
         {
